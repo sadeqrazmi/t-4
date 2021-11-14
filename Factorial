@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+ 
+main()
+{
+int a,b=1;
+//a is number
+
+cout<<"Please enter number\n";
+cin>>a;
+
+if(b>a)
+cout<<"no\n";	
+
+if(a==1)
+cout<<"yes\n";	
+
+for(int i=1;b<a;i++)
+{
+	b=b*i;
+	if(a==b){
+		cout<<"yes\n";
+	}
+}
+
+
+return  0;
+}
